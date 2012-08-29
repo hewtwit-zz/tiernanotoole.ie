@@ -2,4 +2,15 @@
 layout: post
 title: My new Git Powered Site
 ---
-So, this site is brought to you by GIT, Magic, and Jekyll... which is also magic
+So, this site is brought to you by [GIT][1], [Jekyll][3] and Magic... here is how i did it...
+
+* I have a Linux VM running the site. Its an [Ubuntu 12.04][4] server. On that i installed Jekyll. 
+* I also have gitolite installed for personal git repos. 
+* In the Git Repo for this site, under the hooks directory, i added a post-receive file which i got from [here][2] orignally.
+* Apache is set to serve the directory that Jelkyll produces... thats what you are reading here. 
+
+
+[1]:http://git-scm.com/
+[2]:http://blog.zerosum.org/2010/11/01/pure-git-deploy-workflow.html
+[3]:https://github.com/mojombo/jekyll
+[4]:http://ubuntu.com
