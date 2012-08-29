@@ -1,0 +1,5 @@
+---
+layout: post
+title: My new Git Powered Site
+---
+So, this site is brought to you by GIT, Magic, and Jekyll... which is also magic
