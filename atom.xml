@@ -11,7 +11,7 @@ layout: nil
 	<id>http://tiernanotoole.ie/</id>
 	<author>
 		<name>Tiernan OToole</name>
-		<email></email>
+		<email>tiernan@tiernanotoole.ie</email>
 	</author>
 	{% for post in site.posts %}
 	<entry>
