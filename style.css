@@ -126,7 +126,7 @@ a:hover {
 	padding: 0px; height: 41px;
 }
 .post .title a {
-	border: currentColor; color: rgb(191, 59, 65); text-transform: lowercase; letter-spacing: -2px; text-decoration: none;
+	border: currentColor; color: rgb(191, 59, 65); text-transform: lowercase; letter-spacing: 2px; text-decoration: none;
 }
 .post .entry {
 	padding: 10px 0px 20px; text-align: justify; border-bottom-color: rgb(209, 217, 240); border-bottom-width: 1px; border-bottom-style: solid;
