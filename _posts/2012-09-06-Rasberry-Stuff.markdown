@@ -2,8 +2,8 @@
 layout: post
 title: Raspberry Pi Stuff
 tags:
--	Hardware
--	Raspberry Pi
+- Hardware
+- Raspberry Pi
 ---
 A couple months back, I got my hands on a [Raspberry Pi][1], a tiny development board that can run a full copy of Linux, has a HDMI port, a couple USB ports, Ethernet and a few other little bits and pieces. The full specs, from the [Wikipedia Article][2] are as follows:
 

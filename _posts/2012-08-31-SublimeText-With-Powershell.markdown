@@ -2,7 +2,7 @@
 layout: post
 title: Sublime Text 2 with Powershell
 tag:
--	Powershell
+- Powershell
 ---
 Ny new Favorite cross platform text editor is [Sublime Text 2][1]. It works on Windows, Mac OS and Linux, and i am very happy with it. My only problem is the path to start it is not exactly easy to type... So, with the help of PowerShell, my new favorite command line tool on Windows, i added an alias:
 

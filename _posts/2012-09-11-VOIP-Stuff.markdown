@@ -2,7 +2,7 @@
 layout: post
 title: VOIP Stuff
 tags:
--	VoIP
+- VoIP
 ---
 I have been very interested in VOIP stuff for the last while now, and finally started looking at implimenting it in the house. Here are some links which may be useful. I will do a full post soon.
 
