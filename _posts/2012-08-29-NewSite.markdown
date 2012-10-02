@@ -1,6 +1,9 @@
 ---
 layout: post
 title: My new Git Powered Site
+tags:
+-	Announcement
+- 	Git
 ---
 So, this site is brought to you by [GIT][1], [Jekyll][3] and Magic... here is how i did it...
 

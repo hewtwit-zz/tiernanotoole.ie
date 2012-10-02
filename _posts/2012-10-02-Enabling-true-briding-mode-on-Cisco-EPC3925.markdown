@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Enabling True Bridging modem on a Cisco ECP3925 Cable Modem (UPC Ireland)
+tags:
+-	Networking
 ---
 I am a [UPC Ireland][1] customer, and have 2 cable modems into the house, both Cisco EPC3925s. These are not exactly great modems for power users, but are grand for normal use... Me, however, being a poweruser wanted something a little more, how should I put it, powerful. 
 
