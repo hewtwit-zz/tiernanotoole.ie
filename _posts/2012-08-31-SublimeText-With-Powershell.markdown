@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sublime Text 2 with Powershell
+date: 2012-08-30 09:00:13
 tags:
 - Powershell
 ---

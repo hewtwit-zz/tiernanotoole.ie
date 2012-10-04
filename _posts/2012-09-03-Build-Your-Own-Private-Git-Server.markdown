@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Build your own Private GIT server
+date: 2012-09-03 10:28:11
 tags:
 - Git
 - Linux
