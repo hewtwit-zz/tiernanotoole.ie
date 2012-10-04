@@ -3,6 +3,7 @@ layout: post
 title: Build your own Private GIT server
 tags:
 - Git
+- Linux
 ---
 This site is built with GIT, GitoLite and Jekyll... I posted about this [before][1]. but how do you setup your own Git Server? checkout [How to install and Setup a Git Repository Server using Gitolite on Linux Ubuntu 10.04 and 11.04][2] on mmncs.com. I am using Ubuntu 12.04, but its mostly the same...
 

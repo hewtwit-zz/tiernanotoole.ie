@@ -4,6 +4,7 @@ title: Crashplan Backups
 tags:
 - Backup
 - Tips
+- Storage
 ---
 I have been running [CrashPlan][1] for a while now, and, other than some minor issues (backup speed to their central location is the big one), everything has been going grand. I use it to backup about 600GB of photos and videos, 500GB+ of VMs, documents, source code and a fair whack of other stuff... In total, about 2TB of data. 
 
