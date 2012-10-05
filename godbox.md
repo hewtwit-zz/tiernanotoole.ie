@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Godbox
 ---
 The Godbox is my main workstation. Its specs are as follows:
