@@ -7,13 +7,11 @@ end
 
 desc 'Build site with Jekyll'
 task :build => :clean do
-  compass
   jekyll
 end
 
 desc 'Start server with --auto'
 task :server => :clean do
-  compass
   jekyll('--server --auto')
 end
 
@@ -48,7 +46,7 @@ task :check_links do
 end
 
 desc "Given a title as an argument, create a new post file"
-task :write, [:title, :category] do |t, args|
+task :write, [:title] do |t, args|
   filename = "#{Time.now.strftime('%Y-%m-%d')}-#{args.title.gsub(/\s/, '_').downcase}.markdown"
   path = File.join("_posts", filename)
   if File.exist? path; raise RuntimeError.new("Won't clobber #{path}"); end
@@ -56,7 +54,9 @@ task :write, [:title, :category] do |t, args|
     file.write <<-EOS
 ---
 layout: post
-category: #{args.category}
+tags:
+- first
+- second
 title: #{args.title}
 date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}
 ---
@@ -70,7 +70,7 @@ def cleanup
 end
 
 def jekyll(opts = '')
-  sh '../bin/jekyll ' + opts
+  sh 'jekyll ' + opts
 end
 
 def compass(opts = '')
