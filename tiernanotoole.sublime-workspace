@@ -7,6 +7,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/Users/tot/Documents/denmark-117errors",
+			"settings":
+			{
+				"buffer_size": 1606,
+				"line_ending": "Windows",
+				"name": "Sent on: 2012-10-11 08:21:19.290"
+			}
+		},
+		{
+			"file": "/C/Users/tot/Documents/Projects/EBR3.0/ebr3.0/ExternalWebServices/App_Data/Configs/Log4net.config",
+			"settings":
+			{
+				"buffer_size": 1720,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -40,12 +57,23 @@
 	},
 	"file_history":
 	[
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_layouts/default.html",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/Computers/godbox.md",
+		"/C/users/tot/Documents/Projects/tiernanotoole.ie/_layouts/default.html",
+		"/C/users/tot/Documents/Projects/tiernanotoole.ie/style.css",
+		"/C/Users/tot/Dropbox/DT249-4/.dropbox",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/about.md",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_layouts/page.html",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_layouts/tag_index.html",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/archive.html",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/godbox.md",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/search.html",
+		"/C/Users/tot/Downloads/auto-replicate.ksh",
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/Rakefile",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-10-05-zfs_iscsi_nfs_sftp_hyper-v_and_more.markdown",
 		"/C/users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-10-05-zfs.markdown",
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-10-05-testing.markdown",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/godbox.md",
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-10-03-Handbrake-Cluster.markdown",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/about.md",
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-10-02-Enabling-true-briding-mode-on-Cisco-EPC3925.markdown",
 		"/C/Users/tot/AppData/Local/Temp/7zO2FDD.tmp/README-sublime-typescript.txt",
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/sitemap.xml",
@@ -58,7 +86,6 @@
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_layouts/post.html",
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-09-28-Powershell-HandBrake-AppleTV-iTunes.markdown",
 		"/C/Users/tot/Documents/Projects/tiernano.github.com/sitemap.xml",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_layouts/default.html",
 		"/C/Users/tot/Dropbox/ifttt/twitter/twitter.txt",
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-09-27-More-VoIP-Stuff.markdown",
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-09-25-Raspberry-Pi-Cross-Compiling.markdown",
@@ -157,17 +184,7 @@
 		"/C/Users/tot/Desktop/Words_Names/BE_words.txt",
 		"/C/Users/tot/Desktop/Words_Names/HU_words.txt",
 		"/C/Users/tot/Desktop/Words_Names/IT_words.txt",
-		"/C/Users/tot/Desktop/Words_Names/LT_words.txt",
-		"/C/Users/tot/Desktop/Words_Names/LU_words.txt",
-		"/C/Users/tot/Desktop/Words_Names/AT_words.txt",
-		"/C/Users/tot/Dropbox/Wiki/MyWiki/Export/appbase.css",
-		"/C/Users/tot/Dropbox/Wiki/MyWiki/OpenDeDupe.wiki",
-		"/C/Users/tot/Documents/Projects/GitDeploySite/index.html",
-		"/C/Users/tot/Documents/prox/Level 1.cfg",
-		"/C/Users/tot/Downloads/webebr.ws70p4z.20120808.083240.log",
-		"/C/Users/tot/Documents/prox/default.cfg",
-		"/C/Users/tot/Desktop/RegSysBackOffice/RegSysBackOffice/App_Code/AccessControl.cs",
-		"/C/Users/tot/Documents/system_log.txt"
+		"/C/Users/tot/Desktop/Words_Names/LT_words.txt"
 	],
 	"find":
 	{
@@ -214,8 +231,64 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/tot/Documents/denmark-117errors",
+					"settings":
+					{
+						"buffer_size": 1606,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1174,
+								1174
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Sent on: 2012-10-11 08:21:19.290",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/tot/Documents/Projects/EBR3.0/ebr3.0/ExternalWebServices/App_Data/Configs/Log4net.config",
+					"settings":
+					{
+						"buffer_size": 1720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -225,7 +298,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -275,6 +348,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 257.0,
 	"status_bar_visible": true
 }
