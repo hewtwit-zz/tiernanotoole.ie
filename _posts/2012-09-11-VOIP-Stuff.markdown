@@ -26,4 +26,4 @@ I also use the 3CX software on both my iPhone and Android.
 [4]:http://www.amazon.co.uk/gp/product/B000TSJ5JK/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B000TSJ5JK&linkCode=as2&tag=tiescomclo-21
 [5]:http://www.amazon.com/gp/product/B000FKP55U/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000FKP55U&linkCode=as2&tag=lotassmartmann00
 [6]:https://play.google.com/store/apps/details?id=com.tcx.sip.ui
-[7]:http://www.3cx.com/products/3CXPhone-for-iPhone.html
+[7]:http://target.georiot.com/Proxy.ashx?grid=621&GR_URL=http%3A%2F%2Fitunes.apple.com%2Fie%2Fapp%2F3cxphone-for-iphone%2Fid392927995%3Fmt%3D8
