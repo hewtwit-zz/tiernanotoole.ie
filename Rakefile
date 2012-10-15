@@ -65,6 +65,23 @@ EOS
     puts "Now open #{path} in an editor."
 end
 
+desc "Given a title as an argument, create a new quick post file"
+task :quick, [:title] do |t, args|
+  filename = "#{Time.now.strftime('%Y-%m-%d')}-#{args.title.gsub(/\s/, '_').downcase}.markdown"
+  path = File.join("QuickPosts", filename)
+  if File.exist? path; raise RuntimeError.new("Won't clobber #{path}"); end
+  File.open(path, 'w') do |file|
+    file.write <<-EOS
+---
+layout: quick
+title: #{args.title}
+date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}
+---
+EOS
+    end
+    puts "Now open #{path} in an editor."
+end
+
 def cleanup
   #sh 'rm -rf _site'
 end
