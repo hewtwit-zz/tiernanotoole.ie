@@ -2,6 +2,7 @@
 layout: post
 title: GPS and Raspberry Pi
 date: 2012-10-15 16:20:17
+tags:
 - Hardware
 - Raspberry Pi
 - GPS
