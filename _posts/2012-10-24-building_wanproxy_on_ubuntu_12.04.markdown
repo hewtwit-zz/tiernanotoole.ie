@@ -15,7 +15,7 @@ I have been looking into WANProxy for a while now, but never successfully got it
 * git clone https://github.com/diegows/wanproxy.git
 * cd wanproxy 
 * make USE_POLL=poll [** NOTE **: check [WAN proxy issue 1][5] for the reason for this. newer copies of the code may have a fix... Also, this part takes a while... I have tried it on a couple VMs and they take about half an hour or more to build... If you are building on Physical hardware, it may be faster. Also, as a general note, if you are building with multiple processors, try add the -jX option, where x is your CPU count +1. for example, make -j5 if you have CPUs or Cores. or make -j17 if you have 16 cores... ]
-* once built, cd programs
+* once built, cd programs/wanproxy
 * sudo cp wanproxy ~/local/bin 
 
 Now, this is, so far, as far as i have gotten... but given its building, and its further than I was a few weeks back, i though i would post incase i can help someone else... 
