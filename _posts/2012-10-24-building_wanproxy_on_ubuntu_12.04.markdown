@@ -18,10 +18,21 @@ I have been looking into WANProxy for a while now, but never successfully got it
 * once built, cd programs/wanproxy
 * sudo cp wanproxy ~/local/bin 
 
-Now, this is, so far, as far as i have gotten... but given its building, and its further than I was a few weeks back, i though i would post incase i can help someone else... 
+~~Now, this is, so far, as far as i have gotten... but given its building, and its further than I was a few weeks back, i though i would post incase i can help someone else... ~~
+
+** UPDATE ** I have successfully managed to get a WANProxy working. The way i have it setup is as follows:
+
+* Linux box in house, and VM on laptop.
+* both have WANProxy installed
+* use the ** Proxying over SSH ** example [from the WANProxy examples site][6] which shows you how to proxy a single web server over SSH. 
+* in my case, i pointed the port at my proxy server inhouse. I also changed the if0.host address from 127.0.0.1 (only accessable from that machine) to its internal IP address (can be seen by anyone on that network)
+* finally, I told my browser to use the WANProxy ip and port 3300 (see the if0 config section) as its proxy. 
+
+Works grand so far. no idea yet if its "faster" but its working, which is a start...
 
 [1]:http://www.wanproxy.org
 [2]:http://github.com/diegows/wanproxy
 [3]:http://wanproxy.org/svn/trunk
 [4]:http://wanproxy.org/get.shtml
 [5]:https://github.com/diegows/wanproxy/issues/1
+[6]:http://wanproxy.org/examples.shtml
