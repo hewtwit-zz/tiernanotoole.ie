@@ -6,7 +6,7 @@ tags:
 title: Building WANProxy on Ubuntu 12.04
 date: 2012-10-24 14:28:07
 ---
-I have been looking into WANProxy for a while now, but never successfully got it to build... I have been more successfull reciently, so here is what you need to do.
+I have been looking into [WANProxy][1] for a while now, but never successfully got it to build... I have been more successfull reciently, so here is what you need to do.
 
 ** NOTE **: I built this on Ubuntu 12.04, so these are the tips for that... Not sure about other Distros...
 ** Second NOTE ** : I am using the [Digows GitHub Repo][2] for downloads... There is also the [WANProxy SVN Server][3] and their official [downloads page][4]. 
