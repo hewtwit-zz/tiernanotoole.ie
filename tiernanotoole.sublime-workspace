@@ -8,12 +8,12 @@
 	"buffers":
 	[
 		{
-			"contents": "gateway0_.GatewayId as GatewayId38_12_, gateway0_.CountryCode as CountryC2_38_12_, gateway0_.CreatedDate as CreatedD3_38_12_, gateway0_.OnlineDate as OnlineDate38_12_, gateway0_.Name as Name38_12_, gateway0_.ProviderId as ProviderId38_12_, gateway0_.GatewayStatusId as GatewayS7_38_12_, provider1_.ProviderId as ProviderId23_0_, provider1_.Name as Name23_0_, provider1_.PrimaryUserId as PrimaryU3_23_0_, provider1_.CNIEntityCount as CNIEntit4_23_0_, provider1_.CNIEntityLastUpdate as CNIEntit5_23_0_, provider1_.CNIEntityLastUpdateCount as CNIEntit6_23_0_, provider1_.ProductActiveDays as ProductA7_23_0_, provider1_.AccountId as AccountId23_0_, provider1_.CountryCode as CountryC9_23_0_, provider1_.ProviderStatusId as Provide10_23_0_, provider1_.ProviderTypeId as Provide11_23_0_, provider1_.CNIEntityUpdateFreqTypeId as CNIEnti12_23_0_, provider1_.CNIEntityUpdateMethodId as CNIEnti13_23_0_, account2_.AccountId as AccountId42_1_, account2_.ContactAddress as ContactA2_42_1_, account2_.ContactEmail as ContactE3_42_1_, account2_.ContactName as ContactN4_42_1_, account2_.ContactPhone as ContactP5_42_1_, account2_.Note as Note42_1_, account2_.Balance as Balance42_1_, account2_.Pin as Pin42_1_, account2_.AccountStatusId as AccountS9_42_1_, account2_.AccountTypeId as Account10_42_1_, accountsta3_.AccountStatusId as AccountS1_1_2_, accountsta3_.AccountStatusDescription as AccountS2_1_2_, accounttyp4_.AccountTypeId as AccountT1_47_3_, accounttyp4_.AccountTypeDescription as AccountT2_47_3_, accounttyp4_.AccountTypeStatus as AccountT3_47_3_, isocountry5_.CountryCode as CountryC1_17_4_, isocountry5_.Value as Value17_4_, isocountry5_.CountryPrefix as CountryP3_17_4_, providerst6_.ProviderStatusId as Provider1_6_5_, providerst6_.ProviderStatusDescription as Provider2_6_5_, providerty7_.ProviderTypeId as Provider1_34_6_, providerty7_.ProviderTypeDescription as Provider2_34_6_, providerty7_.ProviderTypeStatus as Provider3_34_6_, entityupda8_.EntityUpdateFreqTypeId as EntityUp1_32_7_, entityupda8_.UpdateFreqDesc as UpdateFr2_32_7_, entityupda8_.UpdateFreqStatus as UpdateFr3_32_7_, entityupda9_.EntityUpdateMethodId as EntityUp1_37_8_, entityupda9_.UpdateMethodDesc as UpdateMe2_37_8_, gatewaysta10_.GatewayStatusId as GatewayS1_18_9_, gatewaysta10_.GatewayStatusDescription as GatewayS2_18_9_, gatewayava11_.GatewayId as GatewayId__14_, gatewayava11_.GatewayAvailabilityId as GatewayA1_14_, gatewayava11_.GatewayAvailabilityId as GatewayA1_30_10_, gatewayava11_.ClosingHour as ClosingH2_30_10_, gatewayava11_.ClosingMinute as ClosingM3_30_10_, gatewayava11_.Day as Day30_10_, gatewayava11_.OpeningHour as OpeningH5_30_10_, gatewayava11_.OpeningMinute as OpeningM6_30_10_, gatewayava11_.Closed as Closed30_10_, gatewayava11_.GatewayId as GatewayId30_10_, gatewayava12_.GatewayId as GatewayId__15_, gatewayava12_.GatewayAvailabilityMonitoredId as GatewayA1_15_, gatewayava12_.GatewayAvailabilityMonitoredId as GatewayA1_54_11_, gatewayava12_.ClosingHour as ClosingH2_54_11_, gatewayava12_.ClosingMinute as ClosingM3_54_11_, gatewayava12_.Day as Day54_11_, gatewayava12_.OpeningHour as OpeningH5_54_11_, gatewayava12_.OpeningMinute as OpeningM6_54_11_, gatewayava12_.Closed as Closed54_11_, gatewayava12_.GatewayId as GatewayId54_11_ FROM gateway gateway0_ left outer join provider provider1_ on gateway0_.ProviderId=provider1_.ProviderId left outer join account account2_ on provider1_.AccountId=account2_.AccountId left outer join accountstatus accountsta3_ on account2_.AccountStatusId=accountsta3_.AccountStatusId left outer join accounttype accounttyp4_ on account2_.AccountTypeId=accounttyp4_.AccountTypeId left outer join isocountry isocountry5_ on provider1_.CountryCode=isocountry5_.CountryCode left outer join providerstatus providerst6_ on provider1_.ProviderStatusId=providerst6_.ProviderStatusId left outer join providertype providerty7_ on provider1_.ProviderTypeId=providerty7_.ProviderTypeId left outer join entityupdatefreqtype entityupda8_ on provider1_.CNIEntityUpdateFreqTypeId=entityupda8_.EntityUpdateFreqTypeId left outer join entityupdatemethod entityupda9_ on provider1_.CNIEntityUpdateMethodId=entityupda9_.EntityUpdateMethodId left outer join gatewaystatus gatewaysta10_ on gateway0_.GatewayStatusId=gatewaysta10_.GatewayStatusId left outer join gatewayavailability gatewayava11_ on gateway0_.GatewayId=gatewayava11_.GatewayId left outer join gatewayavailabilitymonitored gatewayava12_ on gateway0_.GatewayId=gatewayava12_.GatewayId WHERE gateway0_.GatewayId=?p0\n08:50:43.906 [6] INFO  NHibernate.Loader.Loader - SELECT transactio0_.GatewayServiceId as GatewayS8___22_, transactio0_.TransactionId as Transact1_22_, transactio0_.TransactionId as Transact1_46_21_, transactio0_.Cost as Cost46_21_, transactio0_.Narrative as Narrative46_21_, transactio0_.PayReference as PayRefer4_46_21_, transactio0_.TransactionDate as Transact5_46_21_, transactio0_.ErrorTypeId as ErrorTyp6_46_21_, transactio0_.OrderId as OrderId46_21_, transactio0_.GatewayServiceId as GatewayS8_46_21_, transactio0_.StatementId as Statemen9_46_21_, transactio0_.DistributorId as Distrib10_46_21_, transactio0_.TransactionTypeId as Transac11_46_21_, transactio0_.TransactionStatusId as Transac12_46_21_, errortype1_.ErrorTypeId as ErrorTyp1_45_0_, errortype1_.ErrorTypeDescription as ErrorTyp2_45_0_, errortype1_.ErrorTypeStatus as ErrorTyp3_45_0_, orders2_.OrderId as OrderId7_1_, orders2_.CustReference as CustRefe2_7_1_, orders2_.OrderDate as OrderDate7_1_, orders2_.OrderParameter as OrderPar4_7_1_, orders2_.RetryCount as RetryCount7_1_, orders2_.ProductId as ProductId7_1_, orders2_.DistributorId as Distribu7_7_1_, orders2_.OrderStatusId as OrderSta8_7_1_, product3_.ProductId as ProductId33_2_, product3_.FileName as FileName33_2_, product3_.Description as Descript3_33_2_, product3_.ContactEmail as ContactE4_33_2_, product3_.CreatedDate as CreatedD5_33_2_, product3_.UploadedDate as Uploaded6_33_2_, product3_.DownloadedDate as Download7_33_2_, product3_.Format as Format33_2_, product3_.PriceTag as PriceTag33_2_, distributo4_.DistributorId as Distribu1_58_3_, distributo4_.DistributorName as Distribu2_58_3_, distributo4_.ContactAddress as ContactA3_58_3_, distributo4_.ContactEmail as ContactE4_58_3_, distributo4_.ContactPhone as ContactP5_58_3_, distributo4_.ExpiryDate as ExpiryDate58_3_, distributo4_.Note as Note58_3_, distributo4_.TransactionCount as Transact8_58_3_, distributo4_.TransactionLimit as Transact9_58_3_, distributo4_.DistributorStatusId as Distrib10_58_3_, distributo4_.DistributorTypeId as Distrib11_58_3_, distributo4_.ProviderId as ProviderId58_3_, distributo5_.DistributorStatusId as Distribu1_41_4_, distributo5_.DistributorStatusDescription as Distribu2_41_4_, distributo6_.DistributorTypeId as Distribu1_56_5_, distributo6_.DistributorTypeDescription as Distribu2_56_5_, distributo6_.DistributorTypeStatus as Distribu3_56_5_, provider7_.ProviderId as ProviderId23_6_, provider7_.Name as Name23_6_, provider7_.PrimaryUserId as PrimaryU3_23_6_, provider7_.CNIEntityCount as CNIEntit4_23_6_, provider7_.CNIEntityLastUpdate as CNIEntit5_23_6_, provider7_.CNIEntityLastUpdateCount as CNIEntit6_23_6_, provider7_.ProductActiveDays as ProductA7_23_6_, provider7_.AccountId as AccountId23_6_, provider7_.CountryCode as CountryC9_23_6_, provider7_.ProviderStatusId as Provide10_23_6_, provider7_.ProviderTypeId as Provide11_23_6_, provider7_.CNIEntityUpdateFreqTypeId as CNIEnti12_23_6_, provider7_.CNIEntityUpdateMethodId as CNIEnti13_23_6_, account8_.AccountId as AccountId42_7_, account8_.ContactAddress as ContactA2_42_7_, account8_.ContactEmail as ContactE3_42_7_, account8_.ContactName as ContactN4_42_7_, account8_.ContactPhone as ContactP5_42_7_, account8_.Note as Note42_7_, account8_.Balance as Balance42_7_, account8_.Pin as Pin42_7_, account8_.AccountStatusId as AccountS9_42_7_, account8_.AccountTypeId as Account10_42_7_, accountsta9_.AccountStatusId as AccountS1_1_8_, accountsta9_.AccountStatusDescription as AccountS2_1_8_, accounttyp10_.AccountTypeId as AccountT1_47_9_, accounttyp10_.AccountTypeDescription as AccountT2_47_9_, accounttyp10_.AccountTypeStatus as AccountT3_47_9_, isocountry11_.CountryCode as CountryC1_17_10_, isocountry11_.Value as Value17_10_, isocountry11_.CountryPrefix as CountryP3_17_10_, providerst12_.ProviderStatusId as Provider1_6_11_, providerst12_.ProviderStatusDescription as Provider2_6_11_, providerty13_.ProviderTypeId as Provider1_34_12_, providerty13_.ProviderTypeDescription as Provider2_34_12_, providerty13_.ProviderTypeStatus as Provider3_34_12_, entityupda14_.EntityUpdateFreqTypeId as EntityUp1_32_13_, entityupda14_.UpdateFreqDesc as UpdateFr2_32_13_, entityupda14_.UpdateFreqStatus as UpdateFr3_32_13_, entityupda15_.EntityUpdateMethodId as EntityUp1_37_14_, entityupda15_.UpdateMethodDesc as UpdateMe2_37_14_, orderstatu16_.OrderStatusId as OrderSta1_11_15_, orderstatu16_.OrderStatusDescription as OrderSta2_11_15_, statement17_.StatementId as Statemen1_16_16_, statement17_.ClosingBalance as ClosingB2_16_16_, statement17_.Note as Note16_16_, statement17_.OpeningBalance as OpeningB4_16_16_, statement17_.StatementFromDate as Statemen5_16_16_, statement17_.StatementToDate as Statemen6_16_16_, statement17_.ProvidedCount as Provided7_16_16_, statement17_.ProvidedTotal as Provided8_16_16_, statement17_.ConsumedCount as Consumed9_16_16_, statement17_.ConsumedTotal as Consume10_16_16_, statement17_.RoyaltyCount as Royalty11_16_16_, statement17_.RoyaltyTotal as Royalty12_16_16_, statement17_.AccountId as AccountId16_16_, account18_.AccountId as AccountId42_17_, account18_.ContactAddress as ContactA2_42_17_, account18_.ContactEmail as ContactE3_42_17_, account18_.ContactName as ContactN4_42_17_, account18_.ContactPhone as ContactP5_42_17_, account18_.Note as Note42_17_, account18_.Balance as Balance42_17_, account18_.Pin as Pin42_17_, account18_.AccountStatusId as AccountS9_42_17_, account18_.AccountTypeId as Account10_42_17_, distributo19_.DistributorId as Distribu1_58_18_, distributo19_.DistributorName as Distribu2_58_18_, distributo19_.ContactAddress as ContactA3_58_18_, distributo19_.ContactEmail as ContactE4_58_18_, distributo19_.ContactPhone as ContactP5_58_18_, distributo19_.ExpiryDate as ExpiryDate58_18_, distributo19_.Note as Note58_18_, distributo19_.TransactionCount as Transact8_58_18_, distributo19_.TransactionLimit as Transact9_58_18_, distributo19_.DistributorStatusId as Distrib10_58_18_, distributo19_.DistributorTypeId as Distrib11_58_18_, distributo19_.ProviderId as ProviderId58_18_, transactio20_.TransactionTypeId as Transact1_10_19_, transactio20_.TransactionTypeDescription as Transact2_10_19_, transactio20_.TransactionTypeStatus as Transact3_10_19_, transactio21_.TransactionStatusId as Transact1_49_20_, transactio21_.TransactionStatusDescription as Transact2_49_20_ FROM transaction transactio0_ left outer join errortype errortype1_ on transactio0_.ErrorTypeId=errortype1_.ErrorTypeId left outer join orders orders2_ on transactio0_.OrderId=orders2_.OrderId left outer join product product3_ on orders2_.ProductId=product3_.ProductId left outer join distributor distributo4_ on orders2_.DistributorId=distributo4_.DistributorId left outer join distributorstatus distributo5_ on distributo4_.DistributorStatusId=distributo5_.DistributorStatusId left outer join distributortype distributo6_ on distributo4_.DistributorTypeId=distributo6_.DistributorTypeId left outer join provider provider7_ on distributo4_.ProviderId=provider7_.ProviderId left outer join account account8_ on provider7_.AccountId=account8_.AccountId left outer join accountstatus accountsta9_ on account8_.AccountStatusId=accountsta9_.AccountStatusId left outer join accounttype accounttyp10_ on account8_.AccountTypeId=accounttyp10_.AccountTypeId left outer join isocountry isocountry11_ on provider7_.CountryCode=isocountry11_.CountryCode left outer join providerstatus providerst12_ on provider7_.ProviderStatusId=providerst12_.ProviderStatusId left outer join providertype providerty13_ on provider7_.ProviderTypeId=providerty13_.ProviderTypeId left outer join entityupdatefreqtype entityupda14_ on provider7_.CNIEntityUpdateFreqTypeId=entityupda14_.EntityUpdateFreqTypeId left outer join entityupdatemethod entityupda15_ on provider7_.CNIEntityUpdateMethodId=entityupda15_.EntityUpdateMethodId left outer join orderstatus orderstatu16_ on orders2_.OrderStatusId=orderstatu16_.OrderStatusId left outer join statement statement17_ on transactio0_.StatementId=statement17_.StatementId left outer join account account18_ on statement17_.AccountId=account18_.AccountId left outer join distributor distributo19_ on transactio0_.DistributorId=distributo19_.DistributorId left outer join transactiontype transactio20_ on transactio0_.TransactionTypeId=transactio20_.TransactionTypeId left outer join transactionstatus transactio21_ on transactio0_.TransactionStatusId=transactio21_.TransactionStatusId WHERE transactio0_.GatewayServiceId=?p0\n",
+			"contents": "mysqldump -u root -pTaeVumap1 cashforgames > cashforgames-201211161616.dmp\nmysqldump -u root -pTaeVumap1 commscloset > commscloset-201211161616.dmp\nmysqldump -u root -pTaeVumap1 gadgetking > gadgetking-201211161616.dmp\nmysqldump -u root -pTaeVumap1 geekphotographer > geekphotographer-201211161616.dmp\nmysqldump -u root -pTaeVumap1 irishretrogaming > irishretrogaming-201211161616.dmp\nmysqldump -u root -pTaeVumap1 mail > mail-201211161616.dmp\nmysqldump -u root -pTaeVumap1 miniblog > miniblog-201211161616.dmp\nmysqldump -u root -pTaeVumap1 podcast > podcast-201211161616.dmp\n\n\n\nmysql -u root -pTaeVumap1 commscloset < commscloset-201211161616.dmp\nmysql -u root -pTaeVumap1 gadgetking < gadgetking-201211161616.dmp\nmysql -u root -pTaeVumap1 geekphotographer < geekphotographer-201211161616.dmp\nmysql -u root -pTaeVumap1 irishretrogaming < irishretrogaming-201211161616.dmp\nmysql -u root -pTaeVumap1 mail < mail-201211161616.dmp\nmysql -u root -pTaeVumap1 miniblog < miniblog-201211161616.dmp\nmysql -u root -pTaeVumap1 podcast < podcast-201211161616.dmp\n",
 			"settings":
 			{
-				"buffer_size": 12948,
+				"buffer_size": 1052,
 				"line_ending": "Windows",
-				"name": "gateway0_.GatewayId as GatewayId38_12_, gateway0_."
+				"name": "mysqldump -u root -pTaeVumap1 cashforgames > cashf"
 			}
 		}
 	],
@@ -49,6 +49,42 @@
 	},
 	"file_history":
 	[
+		"/C/Users/tot/Documents/Projects/CNIImportGenerator/CNIImportGenerator/bin/Debug/634884840825859374.xml",
+		"/C/Users/tot/Documents/Projects/CNIImportGenerator/CNIImportGenerator/bin/Debug/634884841468503632.xml",
+		"/C/Users/tot/Documents/Projects/CNIImportGenerator/CNIImportGenerator/bin/Debug/634884842267773551.xml",
+		"/C/temp/www.x-drivers.ru_nec_usb3_1.0.20.0/driver/Release_Note_xHCI-DR-WIN.txt",
+		"/C/Users/tot/Dropbox/college/Security and Cryptography/Project 2 - Links.txt",
+		"//ebr-dev-01/C$/Users/tot/Desktop/transaction.txt",
+		"/C/Users/tot/Dropbox/KeysExport.xml",
+		"/C/Users/tot/Documents/Projects/EBR3.0/VS2010Branch/InternalWebServices/InternalWebServices.csproj",
+		"/C/Users/tot/Documents/Projects/EBR3.0/VS2010Branch/ExternalWebServices/ExternalWebservices.csproj",
+		"/C/Users/tot/Documents/Projects/EBR3.0/VS2010Branch/AdminSite/AdminSite.csproj",
+		"/C/Users/tot/Documents/Projects/EBR3.0/VS2010Branch/AdminSite/AdminSite.Publish.xml",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-10-31-custom_msdeploy_overwrite_rules.markdown",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-11-06-virtualization_walkthough.markdown",
+		"/C/Users/tot/Documents/GitHub/shardinfo.patch",
+		"/C/Users/tot/Documents/GitHub/tiernanoSolrNet.git/shardinfo.patch",
+		"/C/temp/vpn.txt",
+		"/C/Users/tot/Documents/Projects/CNI/Trunk/CNIFrontEnd/Controllers/HomeController.cs",
+		"/C/Users/tot/Documents/Projects/SolrNetRedux/SolrSharp/example/ExampleSearchResults.cs",
+		"/C/Users/tot/Documents/Projects/SolrNetRedux/SolrSharp/example/Program.cs",
+		"/C/Users/tot/Documents/Projects/SolrNetRedux/SolrSharp/src/Query/Query.cs",
+		"/C/Users/tot/Documents/Projects/SolrNetRedux/SolrSharp/src/Results/SearchRecord.cs",
+		"/C/Users/tot/Documents/Projects/CNI/Trunk/CNIFrontEnd/CNI.svc.cs",
+		"/C/Users/tot/Documents/Projects/CNI/Trunk/CNIFrontEnd/Controllers/UtilitiesController.cs",
+		"/C/Users/tot/Documents/Projects/CNI/Trunk/CNIFrontEnd/Models/SolrRepository.cs",
+		"/C/Users/tot/Dropbox/usefullApps/home.pub",
+		"/C/Users/tot/Documents/Projects/SolrNetRedux/SolrSharp/src/Results/SearchResults.cs",
+		"/C/Users/tot/Documents/Projects/SolrNetRedux/SolrSharp/src/Results/ExplanationRecord.cs",
+		"/C/Users/tot/Documents/Projects/CNI/Trunk/CNIFrontEnd/Models/Entities.cs",
+		"/C/Users/tot/Documents/Projects/EBR3.0/VS2010Branch/ExternalWebServices/EBRServices.asmx.cs",
+		"/C/Users/tot/Documents/Projects/EBR3.0/VS2010Branch/AdminSite/DOR.aspx.cs",
+		"/C/Users/tot/Documents/Projects/SolrNetRedux/.gitignore",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-10-24-building_wanproxy_on_ubuntu_12.04.markdown",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-10-26-wanproxy_and_squid_with_upstream_servers.markdown",
+		"/C/Users/tot/Documents/Projects/EBR3.0/VS2010Branch/InternalWebServices/InternalWebServices.sln",
+		"/C/Users/tot/Documents/Projects/EBR3.0/VS2010Branch/InternalWebServices/InternalWebServices.csproj.user",
+		"/C/Users/tot/Documents/Projects/EBR3.0/VS2010Branch/AdminSite/AdminSite.csproj.user",
 		"/C/Users/tot/Downloads/ebr2010-14.pem",
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/mu-42a48fc2-59626acd-e94af5ab-15b1ed0c.txt",
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_layouts/default.html",
@@ -140,43 +176,7 @@
 		"/C/Users/tot/Dropbox/email/CloudArray.txt",
 		"/C/temp/CA/messages",
 		"/C/Users/tot/Dropbox/CNI Stuff/File Formats",
-		"/C/Users/tot/Desktop/config.xml",
-		"/C/Users/tot/Dropbox/KeysExport.xml",
-		"/C/Users/tot/Dropbox/CNI Stuff/CNI-entities.XSD",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-09-06-Rasberry-Stuff.markdown",
-		"/C/Users/tot/Dropbox/mymachines.rdg",
-		"/C/Users/tot/Dropbox/SSL Cert/rdghome.tiernanotoole.ie.crt",
-		"/C/Users/tot/Desktop/rmseurope.org/gd_bundle.crt",
-		"/C/Users/tot/Desktop/rmseurope.org/rmseurope.cer",
-		"/C/Users/tot/AppData/Local/Temp/7zECC76.tmp/gd_bundle.crt",
-		"/C/Users/tot/Desktop/rmseurope.org/gd_iis_intermediates.p7b",
-		"/C/Users/tot/Desktop/rmseurope.org/rmseurope.org.crt",
-		"/C/Users/tot/Downloads/rmseurope (1).crt",
-		"/C/Users/tot/Downloads/rmseurope.crt",
-		"/C/Users/tot/Downloads/rmseurope (1).pem",
-		"/C/Users/tot/Downloads/rmseurope.pem",
-		"/C/Users/tot/Desktop/rmseurope.org/rmseurope.pfx",
-		"/C/Users/tot/Documents/Projects/RMS/Database/RMS 2.0/Scripts/Data/Dummy/cei_updates.sql",
-		"/C/Users/tot/Documents/Projects/RMS/Database/RMS 2.0/Scripts/Data/Dummy/provided_vs_consumed.sql",
-		"/C/Users/tot/Documents/Projects/RMS/Database/RMS 2.0/Scripts/Data/Dummy/cei_overview.sql",
-		"/C/Users/tot/Documents/Projects/RMS/Database/RMS 2.0/Scripts/Data/Data Processing/cei_germany data import checks.sql",
-		"/C/Users/tot/Documents/Projects/RMS/Code/RMS 2.0/RMS/RMS.Portal/Web.config",
-		"/C/Users/tot/Documents/Projects/RMS/Database/RMS 2.0/Scripts/Data/Data Processing/CEI Imports.sql",
-		"/C/Program Files (x86)/sdfs/etc/sdfstest-volume-cfg.xml",
-		"/C/Program Files (x86)/sdfs/volumes/sdfstest/files/instantclient_11_2/ocijdbc11.dll",
-		"/C/Program Files (x86)/sdfs/volumes/sdfstest/files/twitterData/json.7zip",
-		"/C/Program Files (x86)/sdfs/mksdfs.bat",
-		"/C/Program Files (x86)/sdfs/readme.txt",
-		"/C/Program Files (x86)/sdfs/readme-win32.txt",
-		"/C/Program Files (x86)/sdfs/volumes/sdfstest/chunkstore/hdb/hashstore-sdfs",
-		"/C/Users/tot/Documents/Projects/limitedslipnetworks/_includes/themes/hooligan/post.html",
-		"/C/Users/tot/Documents/Visual Studio 2010/Projects/GeekPhotographer/README.md",
-		"/C/Users/tot/Documents/Projects/limitedslipnetworks/sitemap.txt",
-		"/C/Users/tot/Documents/Projects/limitedslipnetworks/README.md",
-		"/C/Users/tot/Documents/Projects/limitedslipnetworks/_posts/core-samples/2011-12-29-jekyll-introduction.md",
-		"/C/Users/tot/Documents/Projects/limitedslipnetworks/changelog.md",
-		"/C/Users/tot/Documents/Projects/limitedslipnetworks/_layouts/default.html",
-		"/C/Users/tot/Documents/Projects/limitedslipnetworks/atom.xml"
+		"/C/Users/tot/Desktop/config.xml"
 	],
 	"find":
 	{
@@ -194,6 +194,36 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mysqladmin",
+			".dmp",
+			" ",
+			"               ",
+			"|",
+			"| ",
+			"apt-mirror.localdomain",
+			"gb.archive",
+			"/gb.archive",
+			"deb http://ie.archive.ubuntu.com/ubuntu precise main restricted universe multiverse",
+			"/192.168.0.137",
+			".*\\\\App_Data\\\\logs\\\\.*",
+			"\\\\App_Data\\\\logs\\\\",
+			"151",
+			"@192.168.0.151",
+			"Entities",
+			"doSearch",
+			"\",\"",
+			".mp4",
+			" [WebMethod]",
+			"WebMethod",
+			"AddSkipRules",
+			"OnBeforePackageUsingManifest",
+			">> ",
+			"PS C:\\Users\\tot> ",
+			"proxy1",
+			"peer1",
+			"if1",
+			">> ",
+			"PS C:\\Users\\tot> ",
 			"192.168.0.7",
 			"                  ",
 			"                 ",
@@ -234,24 +264,24 @@
 					"buffer": 0,
 					"settings":
 					{
-						"buffer_size": 12948,
+						"buffer_size": 1052,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4547,
-								12947
+								288,
+								288
 							]
 						],
 						"settings":
 						{
-							"auto_name": "gateway0_.GatewayId as GatewayId38_12_, gateway0_.",
+							"auto_name": "mysqldump -u root -pTaeVumap1 cashforgames > cashf",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 180.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
