@@ -7,32 +7,20 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/Users/tot/AppData/Roaming/Sublime Text 2/Packages/rsub/rsub.py",
-			"settings":
-			{
-				"buffer_size": 4764,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/tot/AppData/Roaming/Sublime Text 2/Packages/rsub/README.md",
-			"settings":
-			{
-				"buffer_size": 1354,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 311.0,
+		"height": 58.0,
 		"selected_items":
 		[
 			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
 				"Package Control: ",
-				"Package Control: Upgrade Package"
+				"Package Control: Install Package"
 			],
 			[
 				"Package Control: install package",
@@ -57,6 +45,28 @@
 	"file_history":
 	[
 		"/C/Users/tot/AppData/Roaming/Sublime Text 2/Packages/rsub/rsub.sublime-settings",
+		"/c/users/tot/appdata/local/temp/collegevm:mirror.list",
+		"/c/users/tot/appdata/local/temp/collegevm:sources.list",
+		"/c/users/tot/appdata/local/temp/collegevm:apt-mirror.list",
+		"/c/users/tot/appdata/local/temp/collegevm:cloudopt-apt.precise.list",
+		"/c/users/tot/appdata/local/temp/collegevm:webupd8team-java-precise.list",
+		"/c/users/tot/appdata/local/temp/collegevm:syslog-ng.conf",
+		"/c/users/tot/appdata/local/temp/collegevm:50-default.conf",
+		"/c/users/tot/appdata/local/temp/collegevm:rsyslog.conf",
+		"/c/users/tot/appdata/local/temp/collegevm:01loggly.conf",
+		"/c/users/tot/appdata/local/temp/collegevm:movabletype-opensource",
+		"/c/users/tot/appdata/local/temp/collegevm:environment",
+		"/c/users/tot/appdata/local/temp/collegevm:apt.conf",
+		"/c/users/tot/appdata/local/temp/collegevm:bash.bashrc",
+		"/c/users/tot/appdata/local/temp/collegevm:fstab",
+		"/C/Users/tot/AppData/Local/Temp/7zOCB61.tmp/system_log.txt",
+		"/C/Users/tot/Documents/Projects/CNITrunk/CNIImportGenerator/bin/x64/Debug/634891948257696651.xml",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-11-22-moving_your_tmg_sql_server_and_other_tmg_tips.markdown",
+		"/c/users/tot/appdata/local/temp/linuxweb:sources.list",
+		"/c/users/tot/appdata/local/temp/owncloud:sources.list",
+		"/c/users/tot/appdata/local/temp/collegevm:server.conf",
+		"/C/Users/tot/AppData/Roaming/Sublime Text 2/Packages/rsub/rsub.py",
+		"/C/Users/tot/AppData/Roaming/Sublime Text 2/Packages/rsub/README.md",
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-11-19-routeros_dynamic_ip_updates.markdown",
 		"/C/Users/tot/Documents/Projects/CNIImportGenerator/CNIImportGenerator/bin/Debug/634884840825859374.xml",
 		"/C/Users/tot/Documents/Projects/CNIImportGenerator/CNIImportGenerator/bin/Debug/634884841468503632.xml",
@@ -161,29 +171,7 @@
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_plugins/version_reporter.rb",
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_plugins/gist_tag.rb",
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/atom.xml",
-		"/C/Users/tot/Documents/Projects/limitedslipnetworks/_config.yml",
-		"/C/Users/tot/Documents/Projects/limitedslipnetworks/pages.html",
-		"/C/Users/tot/Documents/Projects/limitedslipnetworks/index.md",
-		"/C/Users/tot/Documents/Projects/limitedslipnetworks/posts.md",
-		"/C/Users/tot/Documents/Projects/rentadrnk/_includes/themes/twitter/default.html",
-		"/C/Users/tot/Documents/Projects/rentadrnk/_includes/JB/analytics",
-		"/C/Users/tot/Documents/Projects/rentadrnk/_config.yml",
-		"/C/Users/tot/Documents/Projects/halfarsedentertainment/_config.yml",
-		"/C/Users/tot/Documents/Projects/rentadrnk/index.md",
-		"/C/Users/tot/Documents/Projects/rentadrnk/_layouts/default.html",
-		"/C/Users/tot/Documents/Projects/sample_gateway_branches/SampleGateway/EBRTestGateway.sln",
-		"/C/Users/tot/Documents/Projects/sample_gateway_branches/SampleGateway/EBRTestGateway/EBRTestGateway.csproj",
-		"/C/Users/tot/Documents/Projects/GRSEBRGateway/GRSEBRGateway/Gateway.asmx.cs",
-		"/C/Users/tot/Documents/Projects/rentadrnk/_includes/JB/setup",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_config.yml",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/index.html",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-09-24-MicroTik-RouterOS-VPN-Setup.markdown",
-		"/C/temp/CA/log/CloudArray.log",
-		"/C/temp/CA/log/nfsstats.txt",
-		"/C/temp/CA/messages.2",
-		"/C/temp/CA/messages.1",
-		"/C/Users/tot/Dropbox/email/CloudArray.txt",
-		"/C/temp/CA/messages"
+		"/C/Users/tot/Documents/Projects/limitedslipnetworks/_config.yml"
 	],
 	"find":
 	{
@@ -201,6 +189,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"3",
+			"extras.ubuntu.com",
+			"archive.canonical.com",
+			"security.ubuntu.com",
+			"ie.archive.ubuntu.com",
+			"extras.ubuntu.com",
+			"archive.canonical.com",
+			"ie.archive.ubuntu.com",
 			"mysqladmin",
 			".dmp",
 			" ",
@@ -264,63 +260,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/Users/tot/AppData/Roaming/Sublime Text 2/Packages/rsub/rsub.py",
-					"settings":
-					{
-						"buffer_size": 4764,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								66,
-								66
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4050.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/tot/AppData/Roaming/Sublime Text 2/Packages/rsub/README.md",
-					"settings":
-					{
-						"buffer_size": 1354,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								938,
-								938
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 81.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
