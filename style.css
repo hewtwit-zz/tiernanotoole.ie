@@ -75,7 +75,7 @@ a:hover {
 	border: currentColor; color: rgb(69, 48, 44); text-decoration: none;
 }
 #search {
-	background: url("images/img04.jpg") no-repeat 18px 10px; padding: 0px; width: 280px; height: 40px; float: right;
+	padding: 0px; width: 280px; height: 40px; float: right;
 }
 #search form {
 	margin: 0px; padding: 10px 0px 0px 20px;
@@ -102,13 +102,13 @@ a:hover {
 	padding: 6px 15px 0px; border: currentColor; height: 24px; text-align: center; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: normal; text-decoration: none; margin-right: 2px; display: block;
 }
 #menu a:hover {
-	background: url("images/img06.jpg") repeat-x left top; text-decoration: none; text-shadow: #720F12 -1px 1px 1px;
+	text-decoration: none; text-shadow: #720F12 -1px 1px 1px;
 }
 #menu .current_page_item a {
-	background: url("images/img06.jpg") repeat-x left top; text-decoration: none; text-shadow: #720F12 -1px 1px 1px;
+	text-decoration: none; text-shadow: #720F12 -1px 1px 1px;
 }
 #menu .current_page_item a {
-	background: url("images/img06.jpg") repeat-x left top; text-shadow: #720F12 -1px 1px 1px;
+	text-shadow: #720F12 -1px 1px 1px;
 }
 #page {
 	margin: 0px auto; padding: 0px; width: 900px;
@@ -168,13 +168,13 @@ a:hover {
 	padding: 0px; font-size: 11px; font-style: italic; margin-top: -20px; display: block;
 }
 #sidebar li li a {
-	background: url("images/img03.gif") no-repeat left 5px; padding: 0px 0px 0px 20px;
+	padding: 0px 0px 0px 20px;
 }
 #sidebar h2 {
-	background: url("images/img02.jpg") repeat-x left top; margin: 0px 0px 20px; padding: 4px 0px 0px 20px; height: 30px; text-align: left; color: rgb(255, 255, 255); text-transform: uppercase; letter-spacing: -0.5px; font-size: 1em; text-shadow: #720F12 -1px 1px 1px;
+	margin: 0px 0px 20px; padding: 4px 0px 0px 10px; height: 15px; text-align: left; color: rgb(255, 255, 255); text-transform: uppercase; letter-spacing: -0.5px; font-size: 1em; text-shadow: #720F12 -1px 1px 1px;
 }
 #sidebar p {
-	margin: 0px; padding: 0px 20px 20px; text-align: justify; color: rgb(185, 173, 170);
+	margin: 0px; padding: 0px 20px 10px; text-align: justify; color: rgb(185, 173, 170);
 }
 #sidebar a {
 	border: currentColor; color: rgb(185, 173, 170); text-decoration: none;
