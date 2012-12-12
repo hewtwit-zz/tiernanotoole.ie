@@ -13,11 +13,11 @@ here is some examples of how we managed to compress the protobuf files. We got s
 
 to compress an object (obj) and write to a temp file (tmpfile):
 
-{% gist 4267147 %}
+<script src="https://gist.github.com/4267147.js"></script>
 
 to decompress the object back to a known type:
 
-{% gist 4267157 %}
+<script src="https://gist.github.com/4267157.js"></script>
 
 [1]:http://code.google.com/p/protobuf/
 [2]:http://code.google.com/p/protobuf-net/
