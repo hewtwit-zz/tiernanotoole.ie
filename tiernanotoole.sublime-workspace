@@ -7,6 +7,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/Users/tot/Desktop/dyndns.html",
+			"settings":
+			{
+				"buffer_size": 2577,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -44,9 +52,43 @@
 	},
 	"file_history":
 	[
+		"/C/Users/tot/Documents/Projects/CNITrunk/CNI/CNI.SIS.Logic/Process.cs",
+		"/c/users/tot/appdata/local/temp/sources.list",
+		"/c/users/tot/appdata/local/temp/schema.xml",
+		"/c/users/tot/appdata/local/temp/000-default",
+		"/c/users/tot/appdata/local/temp/solrcentral:schema.xml",
+		"/c/users/tot/appdata/local/temp/solrcentral:authorized_keys",
+		"/c/users/tot/appdata/local/temp/virtualweb.tiernanotoole.ie:authorized_keys",
+		"/c/users/tot/appdata/local/temp/virtualweb.tiernanotoole.ie:is_rsa.pub",
+		"/c/users/tot/appdata/local/temp/solrcentral:README.mdown",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/index.html",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_layouts/default.html",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/style.css",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-12-12-compressing_and_uncompressing_protobuf_items_in_c#.markdown",
+		"/C/Users/tot/AppData/Local/Temp/tmpB9CC.tmp",
+		"/c/users/tot/appdata/local/temp/virtualweb.tiernanotoole.ie:test.php",
+		"/c/users/tot/appdata/local/temp/virtualweb.tiernanotoole.ie:.htaccess",
+		"/c/users/tot/appdata/local/temp/virtualweb.tiernanotoole.ie:tiernanotoole.ie",
+		"/c/users/tot/appdata/local/temp/virtualweb.tiernanotoole.ie:expires.load",
+		"/C/Users/tot/Documents/Projects/CNITrunk/Database/schema-create.sql",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-12-05-git_tips_and_tricks.markdown",
+		"/c/users/tot/appdata/local/temp/virtualweb.tiernanotoole.ie:wordpressstatic.sh",
+		"/C/Users/tot/Documents/Projects/CNITrunk/CNIImportGenerator/bin/x64/Debug/1Entity.xml",
+		"/C/Users/tot/Documents/Projects/CNITrunk/Database/2012-12-03-log-entityName-AllowNull.txt",
+		"/C/Users/tot/AppData/Local/Temp/tmp6798.tmp",
+		"/C/Xceed Samples/Xceed Zip for .NET v5.2/CSharp/Zip-related/ZipDemo/ZipDemo.cs",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-11-30-symform_-_p2p_backup.markdown",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-11-22-moving_your_tmg_sql_server_and_other_tmg_tips.markdown",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-11-29-enabling_vnc_from_ssh_on_osx.markdown",
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/Computers/MacBookPro.md",
+		"/c/users/tot/appdata/local/temp/collegevm:sources.old.list",
+		"/c/users/tot/appdata/local/temp/collegevm:sources.list~",
+		"/c/users/tot/appdata/local/temp/virtualweb.tiernanotoole.ie:pagespeed.conf",
+		"/c/users/tot/appdata/local/temp/collegevm:sources.list",
+		"/c/users/tot/appdata/local/temp/virtualweb.tiernanotoole.ie:geekphotographer.com",
+		"/c/users/tot/appdata/local/temp/collegevm:000-default",
 		"/C/Users/tot/AppData/Roaming/Sublime Text 2/Packages/rsub/rsub.sublime-settings",
 		"/c/users/tot/appdata/local/temp/collegevm:mirror.list",
-		"/c/users/tot/appdata/local/temp/collegevm:sources.list",
 		"/c/users/tot/appdata/local/temp/collegevm:apt-mirror.list",
 		"/c/users/tot/appdata/local/temp/collegevm:cloudopt-apt.precise.list",
 		"/c/users/tot/appdata/local/temp/collegevm:webupd8team-java-precise.list",
@@ -61,7 +103,6 @@
 		"/c/users/tot/appdata/local/temp/collegevm:fstab",
 		"/C/Users/tot/AppData/Local/Temp/7zOCB61.tmp/system_log.txt",
 		"/C/Users/tot/Documents/Projects/CNITrunk/CNIImportGenerator/bin/x64/Debug/634891948257696651.xml",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-11-22-moving_your_tmg_sql_server_and_other_tmg_tips.markdown",
 		"/c/users/tot/appdata/local/temp/linuxweb:sources.list",
 		"/c/users/tot/appdata/local/temp/owncloud:sources.list",
 		"/c/users/tot/appdata/local/temp/collegevm:server.conf",
@@ -106,7 +147,6 @@
 		"/C/Users/tot/Documents/Projects/EBR3.0/VS2010Branch/AdminSite/AdminSite.csproj.user",
 		"/C/Users/tot/Downloads/ebr2010-14.pem",
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/mu-42a48fc2-59626acd-e94af5ab-15b1ed0c.txt",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_layouts/default.html",
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-10-18-boot_raspberry_pi_with_ssh_enabled.markdown",
 		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-10-15-gps_and_raspberry_pi.markdown",
 		"/C/Users/tot/Documents/dumps/EBR-Cleaned.sql",
@@ -139,39 +179,7 @@
 		"/C/Users/tot/Documents/Projects/EBR3.0/ebr3.0/InternalWebServices/App_Data/Configs/EBR_NHibernate.config",
 		"/C/Users/tot/Documents/Projects/EBR3.0/ebr3.0/ExternalWebServices/App_Data/Configs/EBR_NHibernate.config",
 		"/C/Users/tot/Documents/denmark-117errors",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/Computers/godbox.md",
-		"/C/users/tot/Documents/Projects/tiernanotoole.ie/_layouts/default.html",
-		"/C/users/tot/Documents/Projects/tiernanotoole.ie/style.css",
-		"/C/Users/tot/Dropbox/DT249-4/.dropbox",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/about.md",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/godbox.md",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/search.html",
-		"/C/Users/tot/Downloads/auto-replicate.ksh",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-10-05-zfs_iscsi_nfs_sftp_hyper-v_and_more.markdown",
-		"/C/users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-10-05-zfs.markdown",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-10-05-testing.markdown",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-10-03-Handbrake-Cluster.markdown",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-10-02-Enabling-true-briding-mode-on-Cisco-EPC3925.markdown",
-		"/C/Users/tot/AppData/Local/Temp/7zO2FDD.tmp/README-sublime-typescript.txt",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/sitemap.xml",
-		"/C/Users/tot/Documents/Projects/HandbrakeCluster/README.md",
-		"/C/Users/tot/Documents/Projects/HandbrakeCluster.wiki/Home.md",
-		"/C/Users/tot/Documents/Projects/RMS/Code/RMS 2.0/RMS/RMS.GermanCEI/IService.cs",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/style.css",
-		"/C/Users/tot/Documents/Projects/RMS/Code/RMS 2.0/RMS/RMS.GermanCEI/Icei.cs",
-		"/C/Users/tot/Documents/Projects/RMS/Code/RMS 2.0/RMS/RMS.GatewayTest/Program.cs",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-09-28-Powershell-HandBrake-AppleTV-iTunes.markdown",
-		"/C/Users/tot/Documents/Projects/tiernano.github.com/sitemap.xml",
-		"/C/Users/tot/Dropbox/ifttt/twitter/twitter.txt",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-09-27-More-VoIP-Stuff.markdown",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-09-25-Raspberry-Pi-Cross-Compiling.markdown",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_posts/2012-09-27-CrashPlan-Backups.markdown",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_plugins/compressor.rb",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_plugins/render_time.rb",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_plugins/version_reporter.rb",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/_plugins/gist_tag.rb",
-		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/atom.xml",
-		"/C/Users/tot/Documents/Projects/limitedslipnetworks/_config.yml"
+		"/C/Users/tot/Documents/Projects/tiernanotoole.ie/Computers/godbox.md"
 	],
 	"find":
 	{
@@ -189,6 +197,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"date",
+			"reid",
+			"ID",
+			"id",
+			"image",
 			"3",
 			"extras.ubuntu.com",
 			"archive.canonical.com",
@@ -260,8 +273,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/tot/Desktop/dyndns.html",
+					"settings":
+					{
+						"buffer_size": 2577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2577
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -321,6 +363,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 302.0,
+	"side_bar_width": 149.0,
 	"status_bar_visible": true
 }
