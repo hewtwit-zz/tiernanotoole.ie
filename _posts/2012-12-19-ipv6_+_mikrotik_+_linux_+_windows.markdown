@@ -5,6 +5,7 @@ tags:
 - Windows
 - Linux
 - Networking
+- IPv6
 title: IPv6 + MikroTik + Linux + Windows
 date: 2012-12-19 16:24:07
 ---
